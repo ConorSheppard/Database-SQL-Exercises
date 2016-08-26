@@ -1,0 +1,11 @@
+-- Create table for employees_managers.sql
+
+CREATE TABLE Employee (Id INT, Name VARCHAR(20), Salary INT, ManagerId INT);
+INSERT INTO Employee (Id, Name, Salary, ManagerId) 
+VALUES (1, 'Conor', 30000, 3);
+INSERT INTO Employee (Id, Name, Salary, ManagerId) 
+VALUES (2, 'Joe', 55000, 4);
+INSERT INTO Employee (Id, Name, Salary, ManagerId) 
+VALUES (3, 'Henry', 38000, NULL);
+INSERT INTO Employee (Id, Name, Salary, ManagerId) 
+VALUES (4, 'John', 40000, NULL);
